@@ -1,0 +1,63 @@
+{
+  "uid" : "9da30d74c05c3cde",
+  "name" : "Verify no crashing appear when click on Add button",
+  "fullName" : "Suite : test.verifyAddButton",
+  "historyId" : "21c23797d339631b306448c08b9112ae",
+  "time" : {
+    "start" : 1533804425579,
+    "stop" : 1533804427812,
+    "duration" : 2233
+  },
+  "description" : "Click on Add button, Verify that no crashing appears",
+  "descriptionHtml" : "<p>Click on Add button, Verify that no crashing appears</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify no crashing appear"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAddButton"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9da30d74c05c3cde.json",
+  "parameterValues" : [ ]
+}

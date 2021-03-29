@@ -1,0 +1,63 @@
+{
+  "uid" : "c2dd9a4a95bb3e68",
+  "name" : "Verify that Sub Tab shows Options (ADD,Prescribe) when no medication record exists, when click on the Medication Tab with 'Past' option Selected",
+  "fullName" : "Suite : test.verifyPastSubTabs",
+  "historyId" : "39669d01c7515b52efbc1ff2432dbdc2",
+  "time" : {
+    "start" : 1533804404609,
+    "stop" : 1533804425575,
+    "duration" : 20966
+  },
+  "description" : "Click on the Medication Tab with ''Past'' option Selected , Verify that Sub Tab shows Options (Renew,Print,Delete) when no medication record exists.",
+  "descriptionHtml" : "<p>Click on the Medication Tab with ''Past'' option Selected , Verify that Sub Tab shows Options (Renew,Print,Delete) when no medication record exists.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify sub Tabs when no medication record exists"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPastSubTabs"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2dd9a4a95bb3e68.json",
+  "parameterValues" : [ ]
+}

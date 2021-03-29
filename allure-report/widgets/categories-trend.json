@@ -1,0 +1,6 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+} ]

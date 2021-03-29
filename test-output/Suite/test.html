@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>TestNG:  test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 23 05:39:41 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>709 seconds (709070 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='providerNote.Medications.AddPatient()'><b>AddPatient</b><br>Test class: providerNote.Medications<br>Test method: Verify that Patient should be added<br>Parameters: Automation1, aa, http://baseline.curemd.com/curemd/datLogin.asp, Abc123, Aaa, 1.2341231234E10, 313 Ring Gold's Street, NEW YORK, 10004.0, NY, jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;
+, PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications, Lasix 20 MG Oral Tablet, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Disease,Patient First Name,Patient Last Name, Age,Patient First Name,Patient Last Name, Social Status,Patient First Name,Patient Last Name, Surgery History,Patient First Name,Patient Last Name, History,Patient First Name,Patient Last Name, patientFirstName,patientLastName,letter, patientFirstName,patientLastName,reason,status,location,ProviderName, patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus, AllergyName,Severity, PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize</td>
+<td></td>
+<td>349</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.Add_Allergy()'><b>Add_Allergy</b><br>Test class: providerNote.Medications<br>Test method: Verify that Allergy Should be added</td>
+<td></td>
+<td>78</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.Applicationlogin()'><b>Applicationlogin</b><br>Test class: providerNote.Medications<br>Test method: Verify that Application should be Login<br>Parameters: Automation1, aa, http://baseline.curemd.com/curemd/datLogin.asp, Abc123, Aaa, 1.2341231234E10, 313 Ring Gold's Street, NEW YORK, 10004.0, NY, jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;
+, PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications, Lasix 20 MG Oral Tablet, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Disease,Patient First Name,Patient Last Name, Age,Patient First Name,Patient Last Name, Social Status,Patient First Name,Patient Last Name, Surgery History,Patient First Name,Patient Last Name, History,Patient First Name,Patient Last Name, patientFirstName,patientLastName,letter, patientFirstName,patientLastName,reason,status,location,ProviderName, patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus, AllergyName,Severity, PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize</td>
+<td></td>
+<td>33</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyAcceptButtonFunctionality()'><b>verifyAcceptButtonFunctionality</b><br>Test class: providerNote.Medications<br>Test method: Verify that required Medication is selected as as SOAP text successfully.<br>Parameters: Automation1, aa, http://baseline.curemd.com/curemd/datLogin.asp, Abc123, Aaa, 1.2341231234E10, 313 Ring Gold's Street, NEW YORK, 10004.0, NY, jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;
+, PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications, Lasix 20 MG Oral Tablet, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Disease,Patient First Name,Patient Last Name, Age,Patient First Name,Patient Last Name, Social Status,Patient First Name,Patient Last Name, Surgery History,Patient First Name,Patient Last Name, History,Patient First Name,Patient Last Name, patientFirstName,patientLastName,letter, patientFirstName,patientLastName,reason,status,location,ProviderName, patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus, AllergyName,Severity, PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize</td>
+<td></td>
+<td>40</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyActionButtons()'><b>verifyActionButtons</b><br>Test class: providerNote.Medications<br>Test method: Verify that after adding medication Sub Tab shows Option Buttons (Accept,ADD, Interaction, Discontinue, Refill, Print , Delete, Rx History)</td>
+<td></td>
+<td>0</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyAddButton()'><b>verifyAddButton</b><br>Test class: providerNote.Medications<br>Test method: Click on Add button, Verify that no crashing appears</td>
+<td></td>
+<td>1</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyAddedMedications()'><b>verifyAddedMedications</b><br>Test class: providerNote.Medications<br>Test method: Verify that added medication is displayed on the main Medication> Current  page</td>
+<td></td>
+<td>20</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyAllergiesSection()'><b>verifyAllergiesSection</b><br>Test class: providerNote.Medications<br>Test method: Verify that Allergies,Diagnosis and Current Medications sections are present on this page.</td>
+<td></td>
+<td>0</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyCurrentSubTabs()'><b>verifyCurrentSubTabs</b><br>Test class: providerNote.Medications<br>Test method: Click on the Medication Tab with ''Current'' option Selected , Verify that Sub Tab shows Options (ADD,Prescribe) when no medication record exists</td>
+<td></td>
+<td>54</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyHelpPopup()'><b>verifyHelpPopup</b><br>Test class: providerNote.Medications<br>Test method: Click on the help icon displayed against the drug and verify help pop up is displayed.</td>
+<td></td>
+<td>1</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyInformationWindow()'><b>verifyInformationWindow</b><br>Test class: providerNote.Medications<br>Test method: 'Verify a pop up is displayed with drug information.</td>
+<td></td>
+<td>4</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyInteractionFunctionality()'><b>verifyInteractionFunctionality</b><br>Test class: providerNote.Medications<br>Test method: Verify that interaction functionality works properly against the Allergies,Diagnosis, Highlighting any interaction if valid.</td>
+<td></td>
+<td>9</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyInteractionNotFoungMsg()'><b>verifyInteractionNotFoungMsg</b><br>Test class: providerNote.Medications<br>Test method: Verify that 'Interaction Not Found' message appears. </td>
+<td></td>
+<td>14</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyLogButton()'><b>verifyLogButton</b><br>Test class: providerNote.Medications<br>Test method: Verify that a log has been created with the current status.</td>
+<td></td>
+<td>0</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyOverridenAlert()'><b>verifyOverridenAlert</b><br>Test class: providerNote.Medications<br>Test method: Verify that when users clicks 'Save' on medications page , with interaction found message , popup of 'overridden alerts' is displayed and Sig addded</td>
+<td></td>
+<td>43</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifyPastSubTabs()'><b>verifyPastSubTabs</b><br>Test class: providerNote.Medications<br>Test method: Click on the Medication Tab with ''Past'' option Selected , Verify that Sub Tab shows Options (Renew,Print,Delete) when no medication record exists.</td>
+<td></td>
+<td>20</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifySearchBar()'><b>verifySearchBar</b><br>Test class: providerNote.Medications<br>Test method: Verify that Save Button and Search bar is present on this page.</td>
+<td></td>
+<td>0</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifySearchbarIntellisence()'><b>verifySearchbarIntellisence</b><br>Test class: providerNote.Medications<br>Test method: Verify that intellisence for the search bar works properly and displays drug names as first letter is entered.</td>
+<td></td>
+<td>7</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+<tr>
+<td title='providerNote.Medications.verifySigSubTabs()'><b>verifySigSubTabs</b><br>Test class: providerNote.Medications<br>Test method: Select a drug from the search bar and verify that a sub tab to enter the sig is displayed.<br>Parameters: Automation1, aa, http://baseline.curemd.com/curemd/datLogin.asp, Abc123, Aaa, 1.2341231234E10, 313 Ring Gold's Street, NEW YORK, 10004.0, NY, jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;
+, PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications, Lasix 20 MG Oral Tablet, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,medication name,quantity, Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions, Disease,Patient First Name,Patient Last Name, Age,Patient First Name,Patient Last Name, Social Status,Patient First Name,Patient Last Name, Surgery History,Patient First Name,Patient Last Name, History,Patient First Name,Patient Last Name, patientFirstName,patientLastName,letter, patientFirstName,patientLastName,reason,status,location,ProviderName, patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus, AllergyName,Severity, PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize</td>
+<td></td>
+<td>26</td>
+<td>providerNote.Medications@7a187f14</td></tr>
+</table><p>
+</body>
+</html>

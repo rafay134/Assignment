@@ -1,0 +1,63 @@
+{
+  "uid" : "6824a7ac814c11ef",
+  "name" : "'Verify a pop up is displayed with drug information.",
+  "fullName" : "Suite : test.verifyInformationWindow",
+  "historyId" : "4cf3c6c41db39ab8bc2e9dfdddaa23a4",
+  "time" : {
+    "start" : 1533804551465,
+    "stop" : 1533804555234,
+    "duration" : 3769
+  },
+  "description" : "'Verify a pop up is displayed with drug information.",
+  "descriptionHtml" : "<p>'Verify a pop up is displayed with drug information.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verifying drugInformationPopup"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyInformationWindow"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6824a7ac814c11ef.json",
+  "parameterValues" : [ ]
+}

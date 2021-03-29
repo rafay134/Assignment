@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8080/",
+  "buildOrder" : 1,
+  "buildName" : "qa_ProviderNote-Medications #1",
+  "buildUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure"
+} ]

@@ -1,0 +1,301 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Prerequisites",
+    "children" : [ {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "Login to Application",
+        "uid" : "9ac886eecd52517d",
+        "parentUid" : "a2b425f88a69da72785f9bb9e5b58403",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533803906789,
+          "stop" : 1533803947786,
+          "duration" : 40997
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2b425f88a69da72785f9bb9e5b58403"
+    } ],
+    "uid" : "34e7636b5b4fcdaa1042cdc1050785b0"
+  }, {
+    "name" : "Regression Suite: Demographic Section",
+    "children" : [ {
+      "name" : "Adding Patient",
+      "children" : [ {
+        "name" : "Adding Patient",
+        "uid" : "20a741e419156ab6",
+        "parentUid" : "ad082a0580fea8bbd915895f979e4128",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533803947793,
+          "stop" : 1533804271344,
+          "duration" : 323551
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad082a0580fea8bbd915895f979e4128"
+    } ],
+    "uid" : "f1b07e6fd347016a04cfa3ea9e224ddf"
+  }, {
+    "name" : "Patient: Add Allergy",
+    "children" : [ {
+      "name" : "Add Allergy",
+      "children" : [ {
+        "name" : "Verify Allergy added",
+        "uid" : "56d4edc5e5e01d75",
+        "parentUid" : "065540b7b3f3cbf7b779b23933abfc26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804271347,
+          "stop" : 1533804348972,
+          "duration" : 77625
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "065540b7b3f3cbf7b779b23933abfc26"
+    } ],
+    "uid" : "5cc0e56d1433f8c41166645bf4403fac"
+  }, {
+    "name" : "Patient: provider Note",
+    "children" : [ {
+      "name" : "Verify sub Tabs when no medication record exists",
+      "children" : [ {
+        "name" : "Verify that Sub Tab shows Options (ADD,Prescribe) when no medication record exists, when click on the Medication Tab with 'Current' option Selected",
+        "uid" : "e414e279f0700371",
+        "parentUid" : "045f314a8572cce40e3946f0823b5f85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804348974,
+          "stop" : 1533804404607,
+          "duration" : 55633
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that Sub Tab shows Options (ADD,Prescribe) when no medication record exists, when click on the Medication Tab with 'Past' option Selected",
+        "uid" : "c2dd9a4a95bb3e68",
+        "parentUid" : "045f314a8572cce40e3946f0823b5f85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804404609,
+          "stop" : 1533804425575,
+          "duration" : 20966
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "045f314a8572cce40e3946f0823b5f85"
+    }, {
+      "name" : "Verify no crashing appear",
+      "children" : [ {
+        "name" : "Verify no crashing appear when click on Add button",
+        "uid" : "9da30d74c05c3cde",
+        "parentUid" : "b79fc554f606d855a9e46da3504a8fd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804425579,
+          "stop" : 1533804427812,
+          "duration" : 2233
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b79fc554f606d855a9e46da3504a8fd8"
+    }, {
+      "name" : "Verify Save button and Search Bar",
+      "children" : [ {
+        "name" : "Verify that Save Button and Search bar is present on this page",
+        "uid" : "8508fb9274fb2bf0",
+        "parentUid" : "4abe342bce9d5e32f7307e5bfec0ae69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804427956,
+          "stop" : 1533804428257,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4abe342bce9d5e32f7307e5bfec0ae69"
+    }, {
+      "name" : "Verify Interaction not found message",
+      "children" : [ {
+        "name" : "Verify that 'Interaction Not Found' message appears when user",
+        "uid" : "ce56b3105e435c91",
+        "parentUid" : "7210541439c484030f1179e94cbf2472",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804428259,
+          "stop" : 1533804443545,
+          "duration" : 15286
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7210541439c484030f1179e94cbf2472"
+    }, {
+      "name" : "Verify Search bar intellisence",
+      "children" : [ {
+        "name" : "Verify that intellisence for the search bar works properly and displays drug names as first letter is entered",
+        "uid" : "90aeae13b3d87207",
+        "parentUid" : "86ec52ebe81a632a327b18c61920b12a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804443547,
+          "stop" : 1533804451291,
+          "duration" : 7744
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86ec52ebe81a632a327b18c61920b12a"
+    }, {
+      "name" : "Verify Sig Sub tab",
+      "children" : [ {
+        "name" : "Select a drug from the search bar and verify that a sub tab to enter the sig is displayed",
+        "uid" : "7a185755c726fbae",
+        "parentUid" : "611f4b91424009547766325e96fbfb63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804451296,
+          "stop" : 1533804477152,
+          "duration" : 25856
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "611f4b91424009547766325e96fbfb63"
+    }, {
+      "name" : "Verify Help popup",
+      "children" : [ {
+        "name" : "Verify Help popup is displayed when click on help icon",
+        "uid" : "b2ab111faadd493d",
+        "parentUid" : "85eaf4c83bf025531ac116e434840703",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804477154,
+          "stop" : 1533804478040,
+          "duration" : 886
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85eaf4c83bf025531ac116e434840703"
+    }, {
+      "name" : "Verify that interaction functionality works properly ",
+      "children" : [ {
+        "name" : "Verify that interaction functionality works properly against the Allergies,Diagnosis, Highlighting any interaction if valid.",
+        "uid" : "92d1a1b8da497866",
+        "parentUid" : "6cb7c308d2df40d89dee3cd02dc7863a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804478041,
+          "stop" : 1533804487824,
+          "duration" : 9783
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6cb7c308d2df40d89dee3cd02dc7863a"
+    }, {
+      "name" : "Verify that popup of 'overridden alerts' is displayed and Sig addded",
+      "children" : [ {
+        "name" : "Verify that popup of 'overridden alerts' is displayed and Sig addded, when click Save on medication page  ",
+        "uid" : "607a590291c48c8c",
+        "parentUid" : "7209da7152a3a0d4b84c7bd03b2489c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804487826,
+          "stop" : 1533804530385,
+          "duration" : 42559
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7209da7152a3a0d4b84c7bd03b2489c2"
+    }, {
+      "name" : "Verify added medication is displayed",
+      "children" : [ {
+        "name" : "Verify that added medication is displayed on the main Medication> Current  page",
+        "uid" : "fd1ef1471a8afcba",
+        "parentUid" : "9ee61c8d7a561b9aa4f2338d6a2de10c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804530387,
+          "stop" : 1533804550608,
+          "duration" : 20221
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ee61c8d7a561b9aa4f2338d6a2de10c"
+    }, {
+      "name" : "Verifying medication sub tabs",
+      "children" : [ {
+        "name" : "Verify that after adding medication Sub Tab shows Option Buttons (Accept,ADD, Interaction, Discontinue, Refill, Print , Delete, Rx History",
+        "uid" : "8818fbc84f9fea86",
+        "parentUid" : "0c618324deeca4296aeeddf9007ff16a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804550611,
+          "stop" : 1533804551089,
+          "duration" : 478
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c618324deeca4296aeeddf9007ff16a"
+    }, {
+      "name" : "Verifying log has been created",
+      "children" : [ {
+        "name" : "Verify that a log has been created with the current status",
+        "uid" : "3c31e447e657dd8d",
+        "parentUid" : "9ce296312c223b331a51d83da5e1ada3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804551091,
+          "stop" : 1533804551464,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that required Medication is selected as as SOAP text successfully",
+        "uid" : "c313a6bd767a2c3c",
+        "parentUid" : "9ce296312c223b331a51d83da5e1ada3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804555238,
+          "stop" : 1533804594079,
+          "duration" : 38841
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ce296312c223b331a51d83da5e1ada3"
+    }, {
+      "name" : "Verifying drugInformationPopup",
+      "children" : [ {
+        "name" : "'Verify a pop up is displayed with drug information.",
+        "uid" : "6824a7ac814c11ef",
+        "parentUid" : "187b2fb32b852995f6ea8b112c73aa21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533804551465,
+          "stop" : 1533804555234,
+          "duration" : 3769
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "187b2fb32b852995f6ea8b112c73aa21"
+    } ],
+    "uid" : "3e69751638b50f3f7406ace73f748221"
+  } ]
+}

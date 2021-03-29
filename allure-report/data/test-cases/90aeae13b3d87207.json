@@ -1,0 +1,63 @@
+{
+  "uid" : "90aeae13b3d87207",
+  "name" : "Verify that intellisence for the search bar works properly and displays drug names as first letter is entered",
+  "fullName" : "Suite : test.verifySearchbarIntellisence",
+  "historyId" : "40bec74793774c58135d6354c4154727",
+  "time" : {
+    "start" : 1533804443547,
+    "stop" : 1533804451291,
+    "duration" : 7744
+  },
+  "description" : "Verify that intellisence for the search bar works properly and displays drug names as first letter is entered.",
+  "descriptionHtml" : "<p>Verify that intellisence for the search bar works properly and displays drug names as first letter is entered.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify Search bar intellisence"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySearchbarIntellisence"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90aeae13b3d87207.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,225 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite : test",
+    "children" : [ {
+      "name" : "Login to Application",
+      "uid" : "9ac886eecd52517d",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533803906789,
+        "stop" : 1533803947786,
+        "duration" : 40997
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Adding Patient",
+      "uid" : "20a741e419156ab6",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533803947793,
+        "stop" : 1533804271344,
+        "duration" : 323551
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Allergy added",
+      "uid" : "56d4edc5e5e01d75",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804271347,
+        "stop" : 1533804348972,
+        "duration" : 77625
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that Sub Tab shows Options (ADD,Prescribe) when no medication record exists, when click on the Medication Tab with 'Current' option Selected",
+      "uid" : "e414e279f0700371",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804348974,
+        "stop" : 1533804404607,
+        "duration" : 55633
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that Sub Tab shows Options (ADD,Prescribe) when no medication record exists, when click on the Medication Tab with 'Past' option Selected",
+      "uid" : "c2dd9a4a95bb3e68",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804404609,
+        "stop" : 1533804425575,
+        "duration" : 20966
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify no crashing appear when click on Add button",
+      "uid" : "9da30d74c05c3cde",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804425579,
+        "stop" : 1533804427812,
+        "duration" : 2233
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that Save Button and Search bar is present on this page",
+      "uid" : "8508fb9274fb2bf0",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804427956,
+        "stop" : 1533804428257,
+        "duration" : 301
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that 'Interaction Not Found' message appears when user",
+      "uid" : "ce56b3105e435c91",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804428259,
+        "stop" : 1533804443545,
+        "duration" : 15286
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that intellisence for the search bar works properly and displays drug names as first letter is entered",
+      "uid" : "90aeae13b3d87207",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804443547,
+        "stop" : 1533804451291,
+        "duration" : 7744
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Select a drug from the search bar and verify that a sub tab to enter the sig is displayed",
+      "uid" : "7a185755c726fbae",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804451296,
+        "stop" : 1533804477152,
+        "duration" : 25856
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Help popup is displayed when click on help icon",
+      "uid" : "b2ab111faadd493d",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804477154,
+        "stop" : 1533804478040,
+        "duration" : 886
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that interaction functionality works properly against the Allergies,Diagnosis, Highlighting any interaction if valid.",
+      "uid" : "92d1a1b8da497866",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804478041,
+        "stop" : 1533804487824,
+        "duration" : 9783
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that popup of 'overridden alerts' is displayed and Sig addded, when click Save on medication page  ",
+      "uid" : "607a590291c48c8c",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804487826,
+        "stop" : 1533804530385,
+        "duration" : 42559
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that added medication is displayed on the main Medication> Current  page",
+      "uid" : "fd1ef1471a8afcba",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804530387,
+        "stop" : 1533804550608,
+        "duration" : 20221
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that after adding medication Sub Tab shows Option Buttons (Accept,ADD, Interaction, Discontinue, Refill, Print , Delete, Rx History",
+      "uid" : "8818fbc84f9fea86",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804550611,
+        "stop" : 1533804551089,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that a log has been created with the current status",
+      "uid" : "3c31e447e657dd8d",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804551091,
+        "stop" : 1533804551464,
+        "duration" : 373
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "'Verify a pop up is displayed with drug information.",
+      "uid" : "6824a7ac814c11ef",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804551465,
+        "stop" : 1533804555234,
+        "duration" : 3769
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that required Medication is selected as as SOAP text successfully",
+      "uid" : "c313a6bd767a2c3c",
+      "parentUid" : "da848926cd8e0741f33fbad7f5c88d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804555238,
+        "stop" : 1533804594079,
+        "duration" : 38841
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "da848926cd8e0741f33fbad7f5c88d76"
+  } ]
+}

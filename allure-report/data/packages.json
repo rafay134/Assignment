@@ -1,0 +1,225 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Suite : test",
+    "children" : [ {
+      "name" : "Applicationlogin[AutomationA,SuPPort.2014,http://release.curemd.com/curemd/datLogin.asp,Abc123,Aaa,1.2341231234E10,313 Ring Gold's Street,NEW YORK,10004.0,NY,jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;\n,PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications,Lasix 20 MG Oral Tablet,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Disease,Patient First Name,Patient Last Name,Age,Patient First Name,Patient Last Name,Social Status,Patient First Name,Patient Last Name,Surgery History,Patient First Name,Patient Last Name,History,Patient First Name,Patient Last Name,patientFirstName,patientLastName,letter,patientFirstName,patientLastName,reason,status,location,ProviderName,patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus,AllergyName,Severity,PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize]",
+      "uid" : "9ac886eecd52517d",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533803906789,
+        "stop" : 1533803947786,
+        "duration" : 40997
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "AddPatient[AutomationA,SuPPort.2014,http://release.curemd.com/curemd/datLogin.asp,Abc123,Aaa,1.2341231234E10,313 Ring Gold's Street,NEW YORK,10004.0,NY,jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;\n,PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications,Lasix 20 MG Oral Tablet,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Disease,Patient First Name,Patient Last Name,Age,Patient First Name,Patient Last Name,Social Status,Patient First Name,Patient Last Name,Surgery History,Patient First Name,Patient Last Name,History,Patient First Name,Patient Last Name,patientFirstName,patientLastName,letter,patientFirstName,patientLastName,reason,status,location,ProviderName,patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus,AllergyName,Severity,PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize]",
+      "uid" : "20a741e419156ab6",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533803947793,
+        "stop" : 1533804271344,
+        "duration" : 323551
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Add_Allergy",
+      "uid" : "56d4edc5e5e01d75",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804271347,
+        "stop" : 1533804348972,
+        "duration" : 77625
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyCurrentSubTabs",
+      "uid" : "e414e279f0700371",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804348974,
+        "stop" : 1533804404607,
+        "duration" : 55633
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyPastSubTabs",
+      "uid" : "c2dd9a4a95bb3e68",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804404609,
+        "stop" : 1533804425575,
+        "duration" : 20966
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyAddButton",
+      "uid" : "9da30d74c05c3cde",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804425579,
+        "stop" : 1533804427812,
+        "duration" : 2233
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyAllergiesSection",
+      "uid" : "8508fb9274fb2bf0",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804427956,
+        "stop" : 1533804428257,
+        "duration" : 301
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyInteractionNotFoungMsg",
+      "uid" : "ce56b3105e435c91",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804428259,
+        "stop" : 1533804443545,
+        "duration" : 15286
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifySearchbarIntellisence",
+      "uid" : "90aeae13b3d87207",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804443547,
+        "stop" : 1533804451291,
+        "duration" : 7744
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifySigSubTabs[AutomationA,SuPPort.2014,http://release.curemd.com/curemd/datLogin.asp,Abc123,Aaa,1.2341231234E10,313 Ring Gold's Street,NEW YORK,10004.0,NY,jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;\n,PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications,Lasix 20 MG Oral Tablet,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Disease,Patient First Name,Patient Last Name,Age,Patient First Name,Patient Last Name,Social Status,Patient First Name,Patient Last Name,Surgery History,Patient First Name,Patient Last Name,History,Patient First Name,Patient Last Name,patientFirstName,patientLastName,letter,patientFirstName,patientLastName,reason,status,location,ProviderName,patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus,AllergyName,Severity,PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize]",
+      "uid" : "7a185755c726fbae",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804451296,
+        "stop" : 1533804477152,
+        "duration" : 25856
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyHelpPopup",
+      "uid" : "b2ab111faadd493d",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804477154,
+        "stop" : 1533804478040,
+        "duration" : 886
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyInteractionFunctionality",
+      "uid" : "92d1a1b8da497866",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804478041,
+        "stop" : 1533804487824,
+        "duration" : 9783
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyOverridenAlert",
+      "uid" : "607a590291c48c8c",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804487826,
+        "stop" : 1533804530385,
+        "duration" : 42559
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyAddedMedications",
+      "uid" : "fd1ef1471a8afcba",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804530387,
+        "stop" : 1533804550608,
+        "duration" : 20221
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyActionButtons",
+      "uid" : "8818fbc84f9fea86",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804550611,
+        "stop" : 1533804551089,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyLogButton",
+      "uid" : "3c31e447e657dd8d",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804551091,
+        "stop" : 1533804551464,
+        "duration" : 373
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyInformationWindow",
+      "uid" : "6824a7ac814c11ef",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804551465,
+        "stop" : 1533804555234,
+        "duration" : 3769
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyAcceptButtonFunctionality[AutomationA,SuPPort.2014,http://release.curemd.com/curemd/datLogin.asp,Abc123,Aaa,1.2341231234E10,313 Ring Gold's Street,NEW YORK,10004.0,NY,jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;\n,PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications,Lasix 20 MG Oral Tablet,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Disease,Patient First Name,Patient Last Name,Age,Patient First Name,Patient Last Name,Social Status,Patient First Name,Patient Last Name,Surgery History,Patient First Name,Patient Last Name,History,Patient First Name,Patient Last Name,patientFirstName,patientLastName,letter,patientFirstName,patientLastName,reason,status,location,ProviderName,patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus,AllergyName,Severity,PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize]",
+      "uid" : "c313a6bd767a2c3c",
+      "parentUid" : "d1afa65c3ba0f396139f95659492ad43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804555238,
+        "stop" : 1533804594079,
+        "duration" : 38841
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d1afa65c3ba0f396139f95659492ad43"
+  } ]
+}

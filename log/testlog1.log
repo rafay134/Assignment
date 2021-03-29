@@ -1,0 +1,381 @@
+2021-03-29 01:26:25,122 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:26:25,442 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:26:26,137 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:26:26,138 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:26:26,139 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:26:26,141 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:26:26,979 [main] INFO Zameen_Assignment - Start Date selected - Monday, April 5, 2021
+2021-03-29 01:26:27,166 [main] INFO Zameen_Assignment - End Date selected - Monday, April 12, 2021
+2021-03-29 01:26:27,313 [main] INFO Zameen_Assignment - Guests button clicked
+2021-03-29 01:26:27,506 [main] INFO AirBnb - 'children' added
+2021-03-29 01:26:27,507 [main] INFO Zameen_Assignment -  -- 1 children added -- 
+2021-03-29 01:26:27,610 [main] INFO AirBnb - 'adults' added
+2021-03-29 01:26:27,610 [main] INFO Zameen_Assignment -  -- 2 adults added -- 
+2021-03-29 01:26:27,764 [main] INFO Zameen_Assignment - Search button clicked
+2021-03-29 01:26:30,206 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:26:30,206 [main] INFO Zameen_Assignment - 3 guests
+2021-03-29 01:26:32,563 [main] INFO Zameen_Assignment - 4 guests
+2021-03-29 01:26:32,563 [main] INFO Zameen_Assignment -  -- Test Scenario for search results verified -- 
+2021-03-29 01:26:32,570 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:26:32,844 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:26:33,549 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:26:33,605 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:26:33,681 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:26:33,740 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:26:33,806 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:26:33,807 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:26:34,024 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:26:34,438 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:26:36,514 [main] INFO Zameen_Assignment - 5 bedrooms
+2021-03-29 01:26:36,683 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:26:42,232 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/6ec93262-1887-43e4-a8c9-47ebc3c05b7e.jpg?im_w=720
+2021-03-29 01:26:42,278 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:26:42,354 [main] INFO Zameen_Assignment - Amenity is displayed
+2021-03-29 01:26:42,354 [main] INFO Zameen_Assignment -  -- Test Scenario for Extra Filters verified -- 
+2021-03-29 01:26:42,415 [main] INFO Zameen_Assignment - Villa Roberto - Houses for Rent in Lariano RM, Italy
+2021-03-29 01:26:42,430 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:26:42,722 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:26:42,975 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:26:43,051 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:26:43,121 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:26:43,171 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:26:43,220 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:26:43,220 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:26:43,383 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:26:43,384 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:26:43,644 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:26:45,765 [main] INFO Zameen_Assignment - Colosseo Apartment Dolabella & Silano  Roma
+2021-03-29 01:26:45,823 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:26:45,956 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:26:45,991 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:26:45,991 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:26:46,176 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:26:46,923 [main] INFO Zameen_Assignment - $26 -- $26
+2021-03-29 01:26:46,923 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:26:46,923 [main] INFO Zameen_Assignment -  -- Test Scenario for property on Map verified -- 
+2021-03-29 01:26:47,506 [main] INFO Zameen_Assignment - driver quit
+2021-03-29 01:38:14,695 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:38:15,004 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:38:16,126 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:38:16,126 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:38:16,133 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:38:16,133 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:38:16,477 [main] INFO Zameen_Assignment - Start Date selected - Monday, April 5, 2021
+2021-03-29 01:38:16,659 [main] INFO Zameen_Assignment - End Date selected - Monday, April 12, 2021
+2021-03-29 01:38:16,779 [main] INFO Zameen_Assignment - Guests button clicked
+2021-03-29 01:38:16,944 [main] INFO AirBnb - 'children' added
+2021-03-29 01:38:16,944 [main] INFO Zameen_Assignment -  -- 1 children added -- 
+2021-03-29 01:38:17,248 [main] INFO AirBnb - 'adults' added
+2021-03-29 01:38:17,256 [main] INFO Zameen_Assignment -  -- 2 adults added -- 
+2021-03-29 01:38:17,402 [main] INFO Zameen_Assignment - Search button clicked
+2021-03-29 01:38:19,179 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:38:19,179 [main] INFO Zameen_Assignment - 3 guests
+2021-03-29 01:38:21,460 [main] INFO Zameen_Assignment - 4 guests
+2021-03-29 01:38:21,468 [main] INFO Zameen_Assignment -  -- Test Scenario for search results verified -- 
+2021-03-29 01:38:21,493 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:38:21,773 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:38:22,045 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:38:22,157 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:38:22,357 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:38:22,597 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:38:22,689 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:38:22,689 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:38:22,912 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:38:23,192 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:38:25,576 [main] INFO Zameen_Assignment - 5 bedrooms
+2021-03-29 01:38:25,774 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:38:33,725 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/3088d9d6-8763-43a4-914e-7e60b06c1c1b.jpg?im_w=720
+2021-03-29 01:38:33,745 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:38:34,297 [main] INFO Zameen_Assignment - Show all amenities clicked
+2021-03-29 01:38:35,196 [main] INFO Zameen_Assignment - The Writers' Villa - 5BR/4BT with Swimming Pool - Villas for Rent in Rome, Lazio, Italy
+2021-03-29 01:38:35,210 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:38:35,562 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:38:35,874 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:38:35,962 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:38:36,050 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:38:36,154 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:38:36,290 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:38:36,290 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:38:36,559 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:38:36,559 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:38:36,919 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:38:40,000 [main] INFO Zameen_Assignment - Colosseo Apartment Dolabella & Silano  Roma
+2021-03-29 01:38:40,099 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:38:40,299 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:38:40,355 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:38:40,355 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:38:40,603 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:38:41,363 [main] INFO Zameen_Assignment - $26 -- $26
+2021-03-29 01:38:41,363 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:38:41,370 [main] INFO Zameen_Assignment -  -- Test Scenario for property on Map verified -- 
+2021-03-29 01:38:41,998 [main] INFO Zameen_Assignment - driver quit
+2021-03-29 01:39:39,070 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:39:39,335 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:39:39,940 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:39:39,940 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:39:39,940 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:39:39,940 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:39:40,900 [main] INFO Zameen_Assignment - Start Date selected - Monday, April 5, 2021
+2021-03-29 01:39:41,042 [main] INFO Zameen_Assignment - End Date selected - Monday, April 12, 2021
+2021-03-29 01:39:41,274 [main] INFO Zameen_Assignment - Guests button clicked
+2021-03-29 01:39:41,646 [main] INFO AirBnb - 'children' added
+2021-03-29 01:39:41,654 [main] INFO Zameen_Assignment -  -- 1 children added -- 
+2021-03-29 01:39:41,790 [main] INFO AirBnb - 'adults' added
+2021-03-29 01:39:41,798 [main] INFO Zameen_Assignment -  -- 2 adults added -- 
+2021-03-29 01:39:41,998 [main] INFO Zameen_Assignment - Search button clicked
+2021-03-29 01:39:44,110 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:39:44,117 [main] INFO Zameen_Assignment - 3 guests
+2021-03-29 01:39:46,752 [main] INFO Zameen_Assignment - 4 guests
+2021-03-29 01:39:46,760 [main] INFO Zameen_Assignment -  -- Test Scenario for search results verified -- 
+2021-03-29 01:39:46,769 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:39:47,017 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:39:47,329 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:39:47,401 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:39:47,457 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:39:47,513 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:39:47,585 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:39:47,585 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:39:47,921 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:39:48,849 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:39:51,249 [main] INFO Zameen_Assignment - 5 bedrooms
+2021-03-29 01:39:51,431 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:39:58,992 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/6ec93262-1887-43e4-a8c9-47ebc3c05b7e.jpg?im_w=720
+2021-03-29 01:39:59,159 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:40:00,672 [main] INFO Zameen_Assignment - Show all amenities clicked
+2021-03-29 01:40:01,636 [main] INFO Zameen_Assignment - Villa Roberto - Houses for Rent in Lariano RM, Italy
+2021-03-29 01:40:01,700 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:40:02,197 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:40:02,501 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:40:02,677 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:40:02,741 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:40:02,887 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:40:03,007 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:40:03,007 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:40:03,248 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:40:03,248 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:40:03,695 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:40:05,911 [main] INFO Zameen_Assignment - Colosseo Apartment Dolabella & Silano  Roma
+2021-03-29 01:40:06,225 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:40:06,409 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:40:06,433 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:40:06,433 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:40:06,657 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:40:07,361 [main] INFO Zameen_Assignment - $26 -- $26
+2021-03-29 01:40:07,370 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:40:07,370 [main] INFO Zameen_Assignment -  -- Test Scenario for property on Map verified -- 
+2021-03-29 01:40:08,047 [main] INFO Zameen_Assignment - driver quit
+2021-03-29 01:42:36,677 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:42:36,921 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:42:37,529 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:42:37,529 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:42:37,529 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:42:37,529 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:42:38,714 [main] INFO Zameen_Assignment - Start Date selected - Monday, April 5, 2021
+2021-03-29 01:42:38,904 [main] INFO Zameen_Assignment - End Date selected - Monday, April 12, 2021
+2021-03-29 01:42:39,032 [main] INFO Zameen_Assignment - Guests button clicked
+2021-03-29 01:42:39,160 [main] INFO AirBnb - 'children' added
+2021-03-29 01:42:39,160 [main] INFO Zameen_Assignment -  -- 1 children added -- 
+2021-03-29 01:42:39,280 [main] INFO AirBnb - 'adults' added
+2021-03-29 01:42:39,280 [main] INFO Zameen_Assignment -  -- 2 adults added -- 
+2021-03-29 01:42:39,432 [main] INFO Zameen_Assignment - Search button clicked
+2021-03-29 01:42:41,504 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:42:41,511 [main] INFO Zameen_Assignment - 3 guests
+2021-03-29 01:42:43,759 [main] INFO Zameen_Assignment - 4 guests
+2021-03-29 01:42:43,762 [main] INFO Zameen_Assignment -  -- Test Scenario for search results verified -- 
+2021-03-29 01:42:43,804 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:42:44,026 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:42:45,082 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:42:45,203 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:42:45,355 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:42:45,475 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:42:45,587 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:42:45,587 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:42:45,955 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:42:46,295 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:42:48,291 [main] INFO Zameen_Assignment - 5 bedrooms
+2021-03-29 01:42:48,495 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:42:53,239 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/6ec93262-1887-43e4-a8c9-47ebc3c05b7e.jpg?im_w=720
+2021-03-29 01:42:53,703 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:42:54,351 [main] INFO Zameen_Assignment - Show all amenities clicked
+2021-03-29 01:42:55,610 [main] INFO Zameen_Assignment - Amenity is displayed
+2021-03-29 01:42:55,617 [main] INFO Zameen_Assignment -  -- Test Scenario for Extra Filters verified -- 
+2021-03-29 01:42:55,698 [main] INFO Zameen_Assignment - Villa Roberto - Houses for Rent in Lariano RM, Italy
+2021-03-29 01:42:55,762 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:42:56,154 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:42:56,506 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:42:56,626 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:42:56,735 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:42:56,851 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:42:57,010 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:42:57,010 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:42:57,219 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:42:57,219 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:42:57,656 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:42:59,796 [main] INFO Zameen_Assignment - Colosseo Apartment Dolabella & Silano  Roma
+2021-03-29 01:42:59,978 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:43:00,418 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:43:00,602 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:43:00,602 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:43:00,938 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:43:01,741 [main] INFO Zameen_Assignment - $26 -- $26
+2021-03-29 01:43:01,741 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:43:01,741 [main] INFO Zameen_Assignment -  -- Test Scenario for property on Map verified -- 
+2021-03-29 01:43:02,386 [main] INFO Zameen_Assignment - driver quit
+2021-03-29 01:43:52,858 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:43:53,141 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:44:01,958 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:44:01,966 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:44:01,966 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:44:01,966 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:44:03,411 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:44:03,682 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:44:04,250 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:44:04,314 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:44:04,490 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:44:04,552 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:44:04,632 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:44:04,632 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:44:05,008 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:44:05,360 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:44:08,904 [main] INFO Zameen_Assignment - 11 bedrooms
+2021-03-29 01:44:09,129 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:44:20,255 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/4047bbf3-ed2a-4876-b0dd-af9beabe2fd9.jpg?im_w=720
+2021-03-29 01:44:20,391 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:44:20,783 [main] INFO Zameen_Assignment - Show all amenities clicked
+2021-03-29 01:44:22,794 [main] INFO Zameen_Assignment - Stunning home in Anguillara Sabazia with Outdoor swimming pool and 11 Bedrooms - Houses for Rent in Anguillara Sabazia, Italy
+2021-03-29 01:44:22,810 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:44:23,283 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:44:23,691 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:44:23,868 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:44:23,998 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:44:24,057 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:44:24,121 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:44:24,121 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:44:24,318 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:44:24,318 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:44:24,574 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:44:27,142 [main] INFO Zameen_Assignment - Historic center
+2021-03-29 01:44:27,358 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:44:27,534 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:44:27,566 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:44:27,566 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:44:27,766 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:44:28,471 [main] INFO Zameen_Assignment - $20 -- $20
+2021-03-29 01:44:28,471 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:44:28,475 [main] INFO Zameen_Assignment -  -- Test Scenario for property on Map verified -- 
+2021-03-29 01:44:29,111 [main] INFO Zameen_Assignment - driver quit
+2021-03-29 01:45:05,799 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:45:06,005 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:45:07,069 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:45:07,076 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:45:07,078 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:45:07,078 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:45:07,390 [main] INFO Zameen_Assignment - Start Date selected - Monday, April 5, 2021
+2021-03-29 01:45:07,550 [main] INFO Zameen_Assignment - End Date selected - Monday, April 12, 2021
+2021-03-29 01:45:07,702 [main] INFO Zameen_Assignment - Guests button clicked
+2021-03-29 01:45:07,830 [main] INFO AirBnb - 'children' added
+2021-03-29 01:45:07,830 [main] INFO Zameen_Assignment -  -- 1 children added -- 
+2021-03-29 01:45:07,950 [main] INFO AirBnb - 'adults' added
+2021-03-29 01:45:07,950 [main] INFO Zameen_Assignment -  -- 2 adults added -- 
+2021-03-29 01:45:08,134 [main] INFO Zameen_Assignment - Search button clicked
+2021-03-29 01:45:10,890 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:45:10,890 [main] INFO Zameen_Assignment - 3 guests
+2021-03-29 01:45:13,167 [main] INFO Zameen_Assignment - 6 guests
+2021-03-29 01:45:13,174 [main] INFO Zameen_Assignment -  -- Test Scenario for search results verified -- 
+2021-03-29 01:45:13,175 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:45:13,439 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:45:13,735 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:45:13,879 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:45:13,935 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:45:14,119 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:45:14,183 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:45:14,183 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:45:14,407 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:45:14,711 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:45:16,680 [main] INFO Zameen_Assignment - 11 bedrooms
+2021-03-29 01:45:16,889 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:45:23,267 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/4047bbf3-ed2a-4876-b0dd-af9beabe2fd9.jpg?im_w=720
+2021-03-29 01:45:23,393 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:45:25,913 [main] INFO Zameen_Assignment - Show all amenities clicked
+2021-03-29 01:45:27,190 [main] INFO Zameen_Assignment - Amenity is displayed
+2021-03-29 01:45:27,190 [main] INFO Zameen_Assignment -  -- Test Scenario for Extra Filters verified -- 
+2021-03-29 01:45:27,206 [main] INFO Zameen_Assignment - Stunning home in Anguillara Sabazia with Outdoor swimming pool and 11 Bedrooms - Houses for Rent in Anguillara Sabazia, Italy
+2021-03-29 01:45:27,238 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:45:27,670 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:45:28,238 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:45:28,298 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:45:28,386 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:45:28,451 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:45:28,525 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:45:28,525 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:45:28,806 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:45:28,806 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:45:29,129 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:45:31,386 [main] INFO Zameen_Assignment - iFlat | Penthouse Rome Capitol
+2021-03-29 01:45:31,716 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:45:31,868 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:45:31,892 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:45:31,892 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:45:32,108 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:45:32,903 [main] INFO Zameen_Assignment - $222 -- $222
+2021-03-29 01:45:32,903 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:45:32,909 [main] INFO Zameen_Assignment -  -- Test Scenario for property on Map verified -- 
+2021-03-29 01:45:33,780 [main] INFO Zameen_Assignment - driver quit
+2021-03-29 01:55:46,819 [main] INFO Zameen_Assignment - URL opened - https://www.airbnb.com/
+2021-03-29 01:55:47,081 [main] INFO Zameen_Assignment -  -- Verifying Test scenario for search results -- 
+2021-03-29 01:55:47,739 [main] INFO Zameen_Assignment - Location entered - Rome, Italy
+2021-03-29 01:55:47,740 [main] INFO Zameen_Assignment - Monday, April 5, 2021
+2021-03-29 01:55:47,740 [main] INFO Zameen_Assignment - Monday, April 12, 2021
+2021-03-29 01:55:47,741 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:55:48,695 [main] INFO Zameen_Assignment - Start Date selected - Monday, April 5, 2021
+2021-03-29 01:55:48,915 [main] INFO Zameen_Assignment - End Date selected - Monday, April 12, 2021
+2021-03-29 01:55:49,028 [main] INFO Zameen_Assignment - Guests button clicked
+2021-03-29 01:55:49,139 [main] INFO AirBnb - 'children' added
+2021-03-29 01:55:49,140 [main] INFO Zameen_Assignment -  -- 1 children added -- 
+2021-03-29 01:55:49,247 [main] INFO AirBnb - 'adults' added
+2021-03-29 01:55:49,248 [main] INFO Zameen_Assignment -  -- 2 adults added -- 
+2021-03-29 01:55:49,382 [main] INFO Zameen_Assignment - Search button clicked
+2021-03-29 01:55:52,460 [main] INFO Zameen_Assignment - Apr 5 – 12
+2021-03-29 01:55:52,461 [main] INFO Zameen_Assignment - 3 guests
+2021-03-29 01:55:54,614 [main] INFO Zameen_Assignment - 4 guests
+2021-03-29 01:55:54,615 [main] INFO Zameen_Assignment -  -- Test Scenario for search results verified -- 
+2021-03-29 01:55:54,623 [main] INFO Zameen_Assignment -  -- Verifying Extra Filters Scenario -- 
+2021-03-29 01:55:54,785 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:55:55,630 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:55:55,683 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:55:55,772 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:55:55,836 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:55:55,993 [main] INFO AirBnb - Bed count increased
+2021-03-29 01:55:55,993 [main] INFO Zameen_Assignment - Bed count increased to - 5
+2021-03-29 01:55:56,267 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:55:56,526 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:55:58,346 [main] INFO Zameen_Assignment - 5 bedrooms
+2021-03-29 01:55:58,668 [main] INFO Zameen_Assignment - First property selected
+2021-03-29 01:56:08,209 [main] INFO Zameen_Assignment - https://a0.muscache.com/im/pictures/6ec93262-1887-43e4-a8c9-47ebc3c05b7e.jpg?im_w=720
+2021-03-29 01:56:08,222 [main] INFO Zameen_Assignment - Image loaded
+2021-03-29 01:56:08,405 [main] INFO Zameen_Assignment - Show all amenities clicked
+2021-03-29 01:56:09,536 [main] INFO Zameen_Assignment - Amenity is displayed
+2021-03-29 01:56:09,536 [main] INFO Zameen_Assignment -  -- Test Scenario for Extra Filters verified -- 
+2021-03-29 01:56:09,586 [main] INFO Zameen_Assignment - Villa Roberto - Houses for Rent in Lariano RM, Italy
+2021-03-29 01:56:09,603 [main] INFO Zameen_Assignment -  -- Verifying Scenario for property on Map -- 
+2021-03-29 01:56:09,977 [main] INFO Zameen_Assignment - More filters clicked
+2021-03-29 01:56:10,302 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:56:10,376 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:56:10,427 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:56:10,477 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:56:10,550 [main] INFO AirBnb - Bed count decreased
+2021-03-29 01:56:10,550 [main] INFO Zameen_Assignment - Bed count decreased by - 5
+2021-03-29 01:56:10,770 [main] INFO AirBnb - Facility 'Pool' selected
+2021-03-29 01:56:10,771 [main] INFO Zameen_Assignment - Facility unselected
+2021-03-29 01:56:10,983 [main] INFO Zameen_Assignment - Stays button clicked
+2021-03-29 01:56:13,227 [main] INFO Zameen_Assignment - Colosseo Apartment Dolabella & Silano  Roma
+2021-03-29 01:56:13,352 [main] INFO Zameen_Assignment - https://www.airbnb.com/rooms/40917723?children=1&adults=2&check_in=2021-04-05&check_out=2021-04-12&previous_page_section_name=1000&federated_search_id=fcbba45c-bfad-46c5-b866-81edf8cd0b2c
+2021-03-29 01:56:13,421 [main] INFO Zameen_Assignment - rgba(255, 255, 255, 1)
+2021-03-29 01:56:13,573 [main] INFO Zameen_Assignment - Hovered over the first search result
+2021-03-29 01:56:13,594 [main] INFO Zameen_Assignment - rgba(34, 34, 34, 1)
+2021-03-29 01:56:13,594 [main] INFO Zameen_Assignment - Color changed
+2021-03-29 01:56:13,782 [main] INFO Zameen_Assignment - Property clicked on Map
+2021-03-29 01:56:14,539 [main] INFO Zameen_Assignment - $26 -- $26
+2021-03-29 01:56:14,539 [main] INFO Zameen_Assignment - Cost details and name matched
+2021-03-29 01:56:14,576 [main] INFO Zameen_Assignment - https://www.airbnb.com/rooms/40917723?children=1&adults=2&check_in=2021-04-05&check_out=2021-04-12&previous_page_section_name=1001&federated_search_id=fcbba45c-bfad-46c5-b866-81edf8cd0b2c
+2021-03-29 01:56:16,327 [main] INFO Zameen_Assignment - driver quit

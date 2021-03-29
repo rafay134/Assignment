@@ -1,0 +1,63 @@
+{
+  "uid" : "56d4edc5e5e01d75",
+  "name" : "Verify Allergy added",
+  "fullName" : "Suite : test.Add_Allergy",
+  "historyId" : "c943980879f7487c27a1509fba99e699",
+  "time" : {
+    "start" : 1533804271347,
+    "stop" : 1533804348972,
+    "duration" : 77625
+  },
+  "description" : "Verify that Allergy Should be added",
+  "descriptionHtml" : "<p>Verify that Allergy Should be added</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: Add Allergy"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Add Allergy"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add_Allergy"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56d4edc5e5e01d75.json",
+  "parameterValues" : [ ]
+}

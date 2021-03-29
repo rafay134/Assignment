@@ -1,0 +1,71 @@
+{
+  "uid" : "8508fb9274fb2bf0",
+  "name" : "Verify that Save Button and Search bar is present on this page",
+  "fullName" : "Suite : test.verifyAllergiesSection",
+  "historyId" : "3be6b2de05f6db37079294543f57ce37",
+  "time" : {
+    "start" : 1533804427956,
+    "stop" : 1533804428257,
+    "duration" : 301
+  },
+  "description" : "Verify that Allergies,Diagnosis and Current Medications sections are present on this page.",
+  "descriptionHtml" : "<p>Verify that Allergies,Diagnosis and Current Medications sections are present on this page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify Save button and Search Bar"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAllergiesSection"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79032a8c9e548faf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804427812,
+        "stop" : 1533804427954,
+        "duration" : 142
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8508fb9274fb2bf0.json",
+  "parameterValues" : [ ]
+}

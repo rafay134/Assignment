@@ -1,0 +1,66 @@
+{
+  "uid" : "20a741e419156ab6",
+  "name" : "Adding Patient",
+  "fullName" : "Suite : test.AddPatient[AutomationA,SuPPort.2014,http://release.curemd.com/curemd/datLogin.asp,Abc123,Aaa,1.2341231234E10,313 Ring Gold's Street,NEW YORK,10004.0,NY,jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;\n,PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications,Lasix 20 MG Oral Tablet,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Disease,Patient First Name,Patient Last Name,Age,Patient First Name,Patient Last Name,Social Status,Patient First Name,Patient Last Name,Surgery History,Patient First Name,Patient Last Name,History,Patient First Name,Patient Last Name,patientFirstName,patientLastName,letter,patientFirstName,patientLastName,reason,status,location,ProviderName,patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus,AllergyName,Severity,PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize]",
+  "historyId" : "90ea3004bf2ef500dc92a80211616b65",
+  "time" : {
+    "start" : 1533803947793,
+    "stop" : 1533804271344,
+    "duration" : 323551
+  },
+  "description" : "Verify that Patient should be added",
+  "descriptionHtml" : "<p>Verify that Patient should be added</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Regression Suite: Demographic Section"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Adding Patient"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddPatient[AutomationA,SuPPort.2014,http://release.curemd.com/curemd/datLogin.asp,Abc123,Aaa,1.2341231234E10,313 Ring Gold's Street,NEW YORK,10004.0,NY,jdbc:sqlserver://release:1433;DatabaseName=QAAutomation_CureMD;user=curemd;password=cure2000;\n,PatientFirstName,PatientLastName,ProcedureName,Units,OrderInstructions,PatientInstructions,Modifiers,Medications,Lasix 20 MG Oral Tablet,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,medication name,quantity,Patient First Name,Patient Last Name,Laboratory,Location,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Laboratory,Provider,Biller,diagnosis,LabTest,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Patient First Name,Patient Last Name,Procedure name,OrderInstructions,PatientInstructions,Disease,Patient First Name,Patient Last Name,Age,Patient First Name,Patient Last Name,Social Status,Patient First Name,Patient Last Name,Surgery History,Patient First Name,Patient Last Name,History,Patient First Name,Patient Last Name,patientFirstName,patientLastName,letter,patientFirstName,patientLastName,reason,status,location,ProviderName,patientFirstName,patientLastName,reason,status,location,ProviderName,transport,transportStatus,AllergyName,Severity,PatientFirstName,PatientLastName,Date,Pulse,Respiration,Temperature,BPSystolic,BPDiastolic,FingerStick,UrineOutput,weight,waistSize,neckSize,hipSize]"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20a741e419156ab6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,63 @@
+{
+  "uid" : "8818fbc84f9fea86",
+  "name" : "Verify that after adding medication Sub Tab shows Option Buttons (Accept,ADD, Interaction, Discontinue, Refill, Print , Delete, Rx History",
+  "fullName" : "Suite : test.verifyActionButtons",
+  "historyId" : "a81f82f005dc64efba6dca4158866312",
+  "time" : {
+    "start" : 1533804550611,
+    "stop" : 1533804551089,
+    "duration" : 478
+  },
+  "description" : "Verify that after adding medication Sub Tab shows Option Buttons (Accept,ADD, Interaction, Discontinue, Refill, Print , Delete, Rx History)",
+  "descriptionHtml" : "<p>Verify that after adding medication Sub Tab shows Option Buttons (Accept,ADD, Interaction, Discontinue, Refill, Print , Delete, Rx History)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verifying medication sub tabs"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyActionButtons"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8818fbc84f9fea86.json",
+  "parameterValues" : [ ]
+}

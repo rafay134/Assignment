@@ -1,0 +1,362 @@
+{
+  "4cf3c6c41db39ab8bc2e9dfdddaa23a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6824a7ac814c11ef",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/6824a7ac814c11ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804551465,
+        "stop" : 1533804555234,
+        "duration" : 3769
+      }
+    } ]
+  },
+  "6a0abc60f0dd33c6f3210a0c24b2e8e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2ab111faadd493d",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/b2ab111faadd493d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804477154,
+        "stop" : 1533804478040,
+        "duration" : 886
+      }
+    } ]
+  },
+  "8398c576cd7eba47693442e2457216df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c31e447e657dd8d",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/3c31e447e657dd8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804551091,
+        "stop" : 1533804551464,
+        "duration" : 373
+      }
+    } ]
+  },
+  "d5cff3b86cfda0e6f95c286f155ed9ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "607a590291c48c8c",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/607a590291c48c8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804487826,
+        "stop" : 1533804530385,
+        "duration" : 42559
+      }
+    } ]
+  },
+  "325350c6cce7f45474cd87a757ee6a78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a185755c726fbae",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/7a185755c726fbae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804451296,
+        "stop" : 1533804477152,
+        "duration" : 25856
+      }
+    } ]
+  },
+  "e40d4f616b724e3d28cfd10018fc1188" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd1ef1471a8afcba",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/fd1ef1471a8afcba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804530387,
+        "stop" : 1533804550608,
+        "duration" : 20221
+      }
+    } ]
+  },
+  "40bec74793774c58135d6354c4154727" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90aeae13b3d87207",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/90aeae13b3d87207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804443547,
+        "stop" : 1533804451291,
+        "duration" : 7744
+      }
+    } ]
+  },
+  "21c23797d339631b306448c08b9112ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9da30d74c05c3cde",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/9da30d74c05c3cde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804425579,
+        "stop" : 1533804427812,
+        "duration" : 2233
+      }
+    } ]
+  },
+  "90ea3004bf2ef500dc92a80211616b65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20a741e419156ab6",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/20a741e419156ab6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533803947793,
+        "stop" : 1533804271344,
+        "duration" : 323551
+      }
+    } ]
+  },
+  "3be6b2de05f6db37079294543f57ce37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8508fb9274fb2bf0",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/8508fb9274fb2bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804427956,
+        "stop" : 1533804428257,
+        "duration" : 301
+      }
+    } ]
+  },
+  "47b778571828ba99df03ec00f32f3c4a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c313a6bd767a2c3c",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/c313a6bd767a2c3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804555238,
+        "stop" : 1533804594079,
+        "duration" : 38841
+      }
+    } ]
+  },
+  "4d8e7ed16a407634704ab06a2f5e5139" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e414e279f0700371",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/e414e279f0700371",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804348974,
+        "stop" : 1533804404607,
+        "duration" : 55633
+      }
+    } ]
+  },
+  "39669d01c7515b52efbc1ff2432dbdc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2dd9a4a95bb3e68",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/c2dd9a4a95bb3e68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804404609,
+        "stop" : 1533804425575,
+        "duration" : 20966
+      }
+    } ]
+  },
+  "c943980879f7487c27a1509fba99e699" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56d4edc5e5e01d75",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/56d4edc5e5e01d75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804271347,
+        "stop" : 1533804348972,
+        "duration" : 77625
+      }
+    } ]
+  },
+  "3034fc2ddaa559ebd96de293ba03842c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce56b3105e435c91",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/ce56b3105e435c91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804428259,
+        "stop" : 1533804443545,
+        "duration" : 15286
+      }
+    } ]
+  },
+  "d55dc3ec86ae6b9f8bb9303c36e04259" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ac886eecd52517d",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/9ac886eecd52517d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533803906789,
+        "stop" : 1533803947786,
+        "duration" : 40997
+      }
+    } ]
+  },
+  "a81f82f005dc64efba6dca4158866312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8818fbc84f9fea86",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/8818fbc84f9fea86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804550611,
+        "stop" : 1533804551089,
+        "duration" : 478
+      }
+    } ]
+  },
+  "63247fff29bccc62a700c5d59dcd953a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92d1a1b8da497866",
+      "reportUrl" : "http://localhost:8080/job/qa_ProviderNote-Medications/1/allure/#testresult/92d1a1b8da497866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533804478041,
+        "stop" : 1533804487824,
+        "duration" : 9783
+      }
+    } ]
+  }
+}

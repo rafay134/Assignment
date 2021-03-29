@@ -1,0 +1,63 @@
+{
+  "uid" : "607a590291c48c8c",
+  "name" : "Verify that popup of 'overridden alerts' is displayed and Sig addded, when click Save on medication page  ",
+  "fullName" : "Suite : test.verifyOverridenAlert",
+  "historyId" : "d5cff3b86cfda0e6f95c286f155ed9ca",
+  "time" : {
+    "start" : 1533804487826,
+    "stop" : 1533804530385,
+    "duration" : 42559
+  },
+  "description" : "Verify that when users clicks 'Save' on medications page , with interaction found message , popup of 'overridden alerts' is displayed and Sig addded",
+  "descriptionHtml" : "<p>Verify that when users clicks 'Save' on medications page , with interaction found message , popup of 'overridden alerts' is displayed and Sig addded</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify that popup of 'overridden alerts' is displayed and Sig addded"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyOverridenAlert"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "607a590291c48c8c.json",
+  "parameterValues" : [ ]
+}

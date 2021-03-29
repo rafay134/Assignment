@@ -1,0 +1,63 @@
+{
+  "uid" : "ce56b3105e435c91",
+  "name" : "Verify that 'Interaction Not Found' message appears when user",
+  "fullName" : "Suite : test.verifyInteractionNotFoungMsg",
+  "historyId" : "3034fc2ddaa559ebd96de293ba03842c",
+  "time" : {
+    "start" : 1533804428259,
+    "stop" : 1533804443545,
+    "duration" : 15286
+  },
+  "description" : "Verify that 'Interaction Not Found' message appears. ",
+  "descriptionHtml" : "<p>Verify that 'Interaction Not Found' message appears.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patient: provider Note"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "CMDLHRVM22"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify Interaction not found message"
+  }, {
+    "name" : "thread",
+    "value" : "182656@CMDLHRVM22.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testClass",
+    "value" : "Suite : test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyInteractionNotFoungMsg"
+  }, {
+    "name" : "package",
+    "value" : "Suite : test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce56b3105e435c91.json",
+  "parameterValues" : [ ]
+}
