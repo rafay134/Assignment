@@ -356,7 +356,7 @@ public class Zameen_Assignment {
 	public void ClosingBrowser() {
 
 		logger.info("driver quit");
-//		driver.quit();
+		driver.quit();
 	}
 
 }
