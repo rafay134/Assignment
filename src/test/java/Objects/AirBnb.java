@@ -150,6 +150,9 @@ public class AirBnb {
 		return driver.findElement(By.xpath("//div[contains(text(), '"+propName+"')]//parent::div//preceding-sibling::a"));
 	}
 	
+	@FindBy(xpath = "//*[contains(@aria-label, 'Amenities')]//h2[contains(text(), 'Amenities')]")
+	public WebElement amenitiesPopupHeading;
+	
 	public AirBnb(WebDriver driver) {
 
 		this.driver = driver;

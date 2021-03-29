@@ -243,7 +243,7 @@ public class Zameen_Assignment {
 
 		try {
 			Thread.sleep(1000);
-			utility.Pause(driver, aobj.amenitiesPopup, "Click", 10);
+			utility.Pause(driver, aobj.amenitiesPopupHeading, "Visibility", 10);
 		}
 		catch (Exception exc234) {}
 		
@@ -334,12 +334,6 @@ public class Zameen_Assignment {
 		Assert.assertTrue(perNightCost.equals(costOnMap), "Costs details not matched");
 		logger.info("Cost details and name matched");
 		
-//		String propLink = aobj.getLinkToPropOnMap(getPropertyName).getAttribute("href");
-//		logger.info(propLink);
-
-//		Assert.assertTrue(propLink.equals(getHref), "Prop link not matched");
-//		logger.info("Prop link matched");
-		
 		logger.info(" -- Test Scenario for property on Map verified -- ");
 
 	}
@@ -362,7 +356,7 @@ public class Zameen_Assignment {
 	public void ClosingBrowser() {
 
 		logger.info("driver quit");
-		driver.quit();
+//		driver.quit();
 	}
 
 }
