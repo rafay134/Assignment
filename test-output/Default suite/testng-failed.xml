@@ -5,9 +5,9 @@
     <classes>
       <class name="Assign.Zameen_Assignment">
         <methods>
+          <include name="VerifyResultsAndDetailsMatchExtraCriteria"/>
           <include name="onTestFaliure"/>
           <include name="ClosingBrowser"/>
-          <include name="VerifyPropOnMap"/>
         </methods>
       </class> <!-- Assign.Zameen_Assignment -->
     </classes>
