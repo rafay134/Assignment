@@ -2,84 +2,32 @@ package Assign;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
-import javax.xml.parsers.ParserConfigurationException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.xml.sax.SAXException;
 import Objects.*;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import ru.yandex.qatools.allure.annotations.Title;
 
 @Listeners({ TestListener.class })
-public class Zameen_Assignment {
+public class Zameen_Assignment extends BaseClass {
 
 	// Objects
 	Logger logger = Logger.getLogger("Zameen_Assignment");
 	TestListener tlistener=new TestListener();
-	HashMap<String, Integer> guests = new HashMap<String, Integer>();
-	Utility utility;
-	AirBnb aobj;
-	WebDriver driver = null;
-	ArrayList<String> credentials = new ArrayList<String> ();
-
-	// Variables
-	String URL = "", startDate = "", endDate = "", windowHandle = "";
-
-	@Test(priority = 1)
-	public void preRec() throws ParserConfigurationException, SAXException, IOException {
-
-		WebDriverManager.chromedriver().setup();
-		HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-		chromePrefs.put("profile.default_content_settings.popups", 0);
-		//		chromePrefs.put("download.default_directory", downloadPath);
-		ChromeOptions options = new ChromeOptions();
-		options.setExperimentalOption("prefs", chromePrefs);	
-		options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-		options.setCapability(ChromeOptions.CAPABILITY, options);
-		options.setExperimentalOption("useAutomationExtension", false);
-		//		options.addArguments("--headless");
-		driver= new ChromeDriver(options);
-		PropertyConfigurator.configure("Log4j.properties");
-
-		utility = new Utility();
-		aobj = new AirBnb (driver);
-
-		startDate = utility.AddDate(7);
-		endDate = utility.AddDate(14);
-
-		guests.put("children", 1);
-		guests.put("adults", 2);
-
-		try {
-			credentials = utility.getUsernamePassword();
-			URL = credentials.get(0);
-		}
-		catch (Exception exc23) {}
-
-		driver.get(URL);
-		driver.manage().window().maximize();
-		logger.info("URL opened - " + URL);
-
-	}
 
 	// Test Scenarios
-	@Test (priority=2, description = "Assignment")
+	@Test (priority=1, description = "Assignment")
 	public void VerifyResultsMatchCriteria() throws InterruptedException, IOException, ParseException {
 
+		PropertyConfigurator.configure("Log4j.properties");
 		logger.info(" -- Verifying Test scenario for search results -- ");
 
 		windowHandle = driver.getWindowHandle();
@@ -180,7 +128,7 @@ public class Zameen_Assignment {
 	}
 
 	// Test Scenarios
-	@Test (priority=3, description = "Assignment")
+	@Test (priority=2, description = "Assignment")
 	public void VerifyResultsAndDetailsMatchExtraCriteria() throws InterruptedException, IOException {
 
 		logger.info(" -- Verifying Extra Filters Scenario -- ");
@@ -257,7 +205,7 @@ public class Zameen_Assignment {
 	}
 
 	// Test Scenarios
-	@Test (priority=4, description = "Assignment")
+	@Test (priority=3, description = "Assignment")
 	public void VerifyPropOnMap() throws InterruptedException, IOException {
 
 		String text = driver.getTitle();
@@ -328,6 +276,11 @@ public class Zameen_Assignment {
 			Assert.fail("Property color not changed on Map");
 		}
 
+		try {
+			utility.Pause(driver, aobj.getPropertyOnMap(getPropertyName), "Click", 10);
+		}
+		catch (Exception exc223) {}
+		
 		aobj.getPropertyOnMap(getPropertyName).click();
 		logger.info("Property clicked on Map");
 
