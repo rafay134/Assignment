@@ -70,7 +70,7 @@ public class AirBnb {
 	@FindBy(xpath = "(//*[contains(@id, 'beds-stepper')]//*[contains(@aria-label, 'decrease value')])[2]")
 	public WebElement decreaseBedCount;
 		
-	@FindBy(xpath = "//*[contains(@aria-label, 'Map')]")
+	@FindBy(xpath = "//*[contains(@data-veloute, 'map/GoogleMap')]")
 	public WebElement map;
 	
 	public void increaseBedCount (int countToIncrease) {
@@ -96,7 +96,7 @@ public class AirBnb {
 	}
 	
 	public void selectFacility (String facility) {
-		utility.retryingFindClick(driver, By.xpath("//*[contains(@id, 'filterItem-facilities-checkbox') and @name = '"+facility+"']"));
+		driver.findElement(By.xpath("//*[contains(@id, 'filterItem-facilities-checkbox') and @name = '"+facility+"']")).click();
 		logger.info("Facility '" + facility + "' selected");
 	}
 	
