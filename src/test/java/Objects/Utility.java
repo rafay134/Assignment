@@ -13,7 +13,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -28,17 +27,8 @@ import org.xml.sax.SAXException;
 
 public class Utility {
 
-	public static int k = 0;
-	public static int l = 0;
-	public static String val6 = "";
-	public static String val7 = "";
-	public static String val8 = "";
-	public static String val9 = "";
-	String currentComponent = "";
 	public static WebDriverWait wait;
-	WebElement element;
 	Logger logger = Logger.getLogger("Utility");
-	ArrayList<Date> dateList=new ArrayList<Date>();	
 
 	public void checkPageIsReady(WebDriver driver) {
 
@@ -57,7 +47,7 @@ public class Utility {
 
 			for (int i = 0; i < 25; i++) {
 				try {
-					Thread.sleep(1000);
+					Thread.sleep(500);
 				} catch (InterruptedException e) {
 				}
 				// To check page ready state.
@@ -107,51 +97,10 @@ public class Utility {
 
 	}
 
-	public static void PomFindClick(WebDriver driver, WebElement element) {
-		boolean result = false;
-		int attempts = 0;
-		while (attempts < 4) {
-			try {
-				Utility.scrollTo(driver, element);
-				element.click();
-				result = true;
-				break;
-			} catch (StaleElementReferenceException e) {
-			}
-			attempts++;
-		}
-
-	}
-
-	public static void retryingFindClick(WebDriver driver, By by) {
-		boolean result = false;
-		int attempts = 0;
-		while (attempts < 4) {
-			try {
-				WebElement element = driver.findElement(by);
-				Utility.scrollTo(driver, element);
-				moveto(driver, element);
-				result = true;
-				break;
-			} catch (StaleElementReferenceException e) {
-			}
-			attempts++;
-		}
-	}
-
 	// This function will scroll the element
 	public static void scrollTo(WebDriver driver, WebElement element) {
 
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
-	}
-
-	// This function will move webdriver to the specified element.
-	// This function move driver to specified elemenet
-	public static void moveto(WebDriver driver, WebElement element) {
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.click().build().perform();
-
 	}
 
 	// This function will capture screenshot
@@ -207,12 +156,11 @@ public class Utility {
 
 	// This function will return Credentials in ArrayList from XML file.
 	// It will be used to get url, username and password from xml file
-	public ArrayList<String> setUsernamePassword() throws ParserConfigurationException, SAXException, IOException {
+	public ArrayList<String> getUsernamePassword() throws ParserConfigurationException, SAXException, IOException {
+		
 		// XML Chunk Starts Here
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
-		// Document document = builder.parse(new File("C://Users//Zarrar
-		// Khan//workspace//Test//Credentials//Credentials.xml"));
 
 		String filePath = System.getProperty("user.dir") + "\\Credentials\\Credentials.xml";
 
