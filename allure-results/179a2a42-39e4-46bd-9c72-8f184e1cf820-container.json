@@ -1,1 +1,0 @@
-{"uuid":"179a2a42-39e4-46bd-9c72-8f184e1cf820","name":"Assign.Zameen_Assignment.onTestFaliure","description":"","start":1617043989900,"stop":1617043989900,"children":["db7632a9-1aea-4d02-9c39-343aba0abdb5"],"afters":[{"name":"onTestFaliure","status":"passed","stage":"finished","description":"","start":1617043989900,"stop":1617043989900}]}
