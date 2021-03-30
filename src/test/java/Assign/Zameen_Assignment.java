@@ -38,7 +38,6 @@ public class Zameen_Assignment {
 
 	// Variables
 	String URL = "", startDate = "", endDate = "", windowHandle = "";
-	boolean firstRun = true;
 
 	@Test(priority = 1)
 	public void preRec() throws ParserConfigurationException, SAXException, IOException {
@@ -66,7 +65,7 @@ public class Zameen_Assignment {
 		guests.put("adults", 2);
 
 		try {
-			credentials = utility.setUsernamePassword();
+			credentials = utility.getUsernamePassword();
 			URL = credentials.get(0);
 		}
 		catch (Exception exc23) {}
@@ -159,10 +158,15 @@ public class Zameen_Assignment {
 		Assert.assertTrue(finalDateFilter.compareTo(getDateFilter) == 0, "Date filter not matched");
 
 		// Verify prop for guests
-		Thread.sleep(2000);
+		utility.checkPageIsReady(driver);
 
 		try {
 			utility.Pause(driver, aobj.map, "Click", 10);
+		}
+		catch (Exception e344) {}
+
+		try {
+			utility.Pause(driver, aobj.getPropertiesOfSearch("guests").get(0), "Click", 20);
 		}
 		catch (Exception e344) {}
 
@@ -196,14 +200,17 @@ public class Zameen_Assignment {
 		aobj.showStaysButton.click();
 		logger.info("Stays button clicked");
 
-		Thread.sleep(1000);
-
 		try {
 			utility.Pause(driver, aobj.map, "Click", 10);
 		}
 		catch (Exception e344) {}
 
 		utility.Pause(driver, aobj.filterApplied, "Click", 10);
+		
+		try {
+			utility.Pause(driver, aobj.getPropertiesOfSearch("bedroom").get(0), "Click", 10);
+		}
+		catch (Exception exc2) {}
 
 		String getBedroomProp = aobj.getPropertiesOfSearch("bedroom").get(0).getText();
 		logger.info(getBedroomProp);
@@ -215,17 +222,14 @@ public class Zameen_Assignment {
 		aobj.getSearchResults.get(0).click();
 		logger.info("First property selected");
 
-		Thread.sleep(1000);
-
 		utility.checkPageIsReady(driver);		
-		
+
 		utility.switchtowindowhandler(driver);
-		
+
 		utility.Pause(driver, aobj.imageForProperty, "Visibility", 10);
-		
+
 		// Wait for the image to load
 		for (int i=0; i<10; i++) {
-			Thread.sleep(1000);
 			logger.info(aobj.imageForProperty.getAttribute("src"));
 			if (aobj.imageForProperty.getAttribute("src").contains("http")) {
 				logger.info("Image loaded");
@@ -237,16 +241,15 @@ public class Zameen_Assignment {
 			utility.Pause(driver, aobj.showAllAmenitiesButton, "Click", 10);
 		}
 		catch (Exception exc234) {}
-		
+
 		aobj.showAllAmenitiesButton.click();
 		logger.info("Show all amenities clicked");
 
 		try {
-			Thread.sleep(1000);
 			utility.Pause(driver, aobj.amenitiesPopupHeading, "Visibility", 10);
 		}
 		catch (Exception exc234) {}
-		
+
 		Assert.assertTrue(aobj.getAmenityFromPopup(facility).isDisplayed(), "Amenity not present");
 		logger.info("Amenity is displayed");
 
@@ -265,7 +268,7 @@ public class Zameen_Assignment {
 		}
 
 		logger.info(" -- Verifying Scenario for property on Map -- ");
-		
+
 		String getPropertyName = "";
 
 		// Apply the same filter as on first test
@@ -286,9 +289,8 @@ public class Zameen_Assignment {
 			aobj.showStaysButton.click();
 			logger.info("Stays button clicked");
 
-			Thread.sleep(1000);			
 		}
-		
+
 		try {
 			utility.Pause(driver, aobj.map, "Click", 10);
 		}
@@ -298,22 +300,27 @@ public class Zameen_Assignment {
 
 		getPropertyName = aobj.searchList.get(0).getAttribute("aria-label");
 		logger.info(getPropertyName);
-		
+
 		String getHref = aobj.searchList.get(0).getAttribute("href");
 		logger.info(getHref);
-		
+
 		String perNightCost = aobj.perNightSearchResults.get(0).getText();
 		perNightCost = perNightCost.split("per")[0].trim();
 		
+		try {
+			utility.Pause(driver, aobj.getPropertyOnMap(getPropertyName), "Click", 10);
+		}
+		catch (Exception exc2323) {}
+
 		String getColor = aobj.getPropertyOnMap(getPropertyName).getCssValue("background-color");
 		logger.info(getColor);
-		
+
 		utility.movetoHover(driver, aobj.getSearchResults.get(0));
 		logger.info("Hovered over the first search result");
 
 		String getColor2 = aobj.getPropertyOnMap(getPropertyName).getCssValue("background-color");
 		logger.info(getColor2);
-		
+
 		if (!getColor.equals(getColor2)) {
 			logger.info("Color changed");
 		}
@@ -323,17 +330,21 @@ public class Zameen_Assignment {
 
 		aobj.getPropertyOnMap(getPropertyName).click();
 		logger.info("Property clicked on Map");
-		
-		utility.Pause(driver, aobj.getPerNightCostOnMap(getPropertyName), "Click", 10);
-		
+
+		try {
+			Thread.sleep(500);
+			utility.Pause(driver, aobj.getPerNightCostOnMap(getPropertyName), "Click", 10);
+		}
+		catch (Exception exc223) {}
+
 		String costOnMap = aobj.getPerNightCostOnMap(getPropertyName).getText().trim();
 		costOnMap = costOnMap.split("per")[0].trim();
-		
+
 		logger.info(perNightCost + " -- " + costOnMap);
-		
+
 		Assert.assertTrue(perNightCost.equals(costOnMap), "Costs details not matched");
 		logger.info("Cost details and name matched");
-		
+
 		logger.info(" -- Test Scenario for property on Map verified -- ");
 
 	}
